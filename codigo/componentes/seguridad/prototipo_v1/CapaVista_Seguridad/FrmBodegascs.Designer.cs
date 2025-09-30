@@ -1,0 +1,363 @@
+﻿
+namespace CapaVista_Seguridad
+{
+    partial class FrmBodegascs
+    {
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            this.Btn_Ayuda = new System.Windows.Forms.Button();
+            this.Btn_reporte = new System.Windows.Forms.Button();
+            this.Gbp_opc = new System.Windows.Forms.GroupBox();
+            this.Btn_Eliminar = new System.Windows.Forms.Button();
+            this.Btn_salir = new System.Windows.Forms.Button();
+            this.Btn_nuevo = new System.Windows.Forms.Button();
+            this.Btn_cancelar = new System.Windows.Forms.Button();
+            this.Btn_modificar = new System.Windows.Forms.Button();
+            this.Btn_guardar = new System.Windows.Forms.Button();
+            this.Gpb_datosperfil = new System.Windows.Forms.GroupBox();
+            this.Gbp_estado = new System.Windows.Forms.GroupBox();
+            this.Rdb_inhabilitado = new System.Windows.Forms.RadioButton();
+            this.Rdb_Habilitado = new System.Windows.Forms.RadioButton();
+            this.Txt_puesto = new System.Windows.Forms.TextBox();
+            this.Lbl_puesto = new System.Windows.Forms.Label();
+            this.Txt_idperfil = new System.Windows.Forms.TextBox();
+            this.Lbl_idpuesto = new System.Windows.Forms.Label();
+            this.Gpb_buscarperfiles = new System.Windows.Forms.GroupBox();
+            this.Btn_buscar = new System.Windows.Forms.Button();
+            this.Cbo_perfiles = new System.Windows.Forms.ComboBox();
+            this.Gbp_opc.SuspendLayout();
+            this.Gpb_datosperfil.SuspendLayout();
+            this.Gbp_estado.SuspendLayout();
+            this.Gpb_buscarperfiles.SuspendLayout();
+            this.SuspendLayout();
+            // 
+            // Btn_Ayuda
+            // 
+            this.Btn_Ayuda.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(61)))), ((int)(((byte)(78)))), ((int)(((byte)(88)))));
+            this.Btn_Ayuda.FlatAppearance.BorderColor = System.Drawing.SystemColors.ButtonShadow;
+            this.Btn_Ayuda.Font = new System.Drawing.Font("Rockwell", 10F);
+            this.Btn_Ayuda.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(201)))), ((int)(((byte)(214)))), ((int)(((byte)(221)))));
+            this.Btn_Ayuda.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.Btn_Ayuda.Location = new System.Drawing.Point(517, -138);
+            this.Btn_Ayuda.Name = "Btn_Ayuda";
+            this.Btn_Ayuda.Size = new System.Drawing.Size(143, 54);
+            this.Btn_Ayuda.TabIndex = 101;
+            this.Btn_Ayuda.Text = "Ayuda";
+            this.Btn_Ayuda.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.Btn_Ayuda.UseVisualStyleBackColor = false;
+            // 
+            // Btn_reporte
+            // 
+            this.Btn_reporte.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(61)))), ((int)(((byte)(78)))), ((int)(((byte)(88)))));
+            this.Btn_reporte.FlatAppearance.BorderColor = System.Drawing.SystemColors.ButtonShadow;
+            this.Btn_reporte.Font = new System.Drawing.Font("Rockwell", 10F);
+            this.Btn_reporte.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(201)))), ((int)(((byte)(214)))), ((int)(((byte)(221)))));
+            this.Btn_reporte.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.Btn_reporte.Location = new System.Drawing.Point(686, -138);
+            this.Btn_reporte.Name = "Btn_reporte";
+            this.Btn_reporte.Size = new System.Drawing.Size(143, 54);
+            this.Btn_reporte.TabIndex = 98;
+            this.Btn_reporte.Text = "Reporte";
+            this.Btn_reporte.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.Btn_reporte.UseVisualStyleBackColor = false;
+            // 
+            // Gbp_opc
+            // 
+            this.Gbp_opc.Controls.Add(this.Btn_Eliminar);
+            this.Gbp_opc.Controls.Add(this.Btn_salir);
+            this.Gbp_opc.Controls.Add(this.Btn_nuevo);
+            this.Gbp_opc.Controls.Add(this.Btn_cancelar);
+            this.Gbp_opc.Controls.Add(this.Btn_modificar);
+            this.Gbp_opc.Controls.Add(this.Btn_guardar);
+            this.Gbp_opc.Font = new System.Drawing.Font("Rockwell", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Gbp_opc.Location = new System.Drawing.Point(751, 137);
+            this.Gbp_opc.Name = "Gbp_opc";
+            this.Gbp_opc.Size = new System.Drawing.Size(227, 472);
+            this.Gbp_opc.TabIndex = 100;
+            this.Gbp_opc.TabStop = false;
+            this.Gbp_opc.Text = "Opciones";
+            // 
+            // Btn_Eliminar
+            // 
+            this.Btn_Eliminar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(61)))), ((int)(((byte)(78)))), ((int)(((byte)(88)))));
+            this.Btn_Eliminar.FlatAppearance.BorderColor = System.Drawing.SystemColors.ButtonShadow;
+            this.Btn_Eliminar.Font = new System.Drawing.Font("Rockwell", 10F);
+            this.Btn_Eliminar.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(201)))), ((int)(((byte)(214)))), ((int)(((byte)(221)))));
+            this.Btn_Eliminar.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.Btn_Eliminar.Location = new System.Drawing.Point(30, 241);
+            this.Btn_Eliminar.Name = "Btn_Eliminar";
+            this.Btn_Eliminar.Size = new System.Drawing.Size(143, 54);
+            this.Btn_Eliminar.TabIndex = 5;
+            this.Btn_Eliminar.Text = "Eliminar";
+            this.Btn_Eliminar.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.Btn_Eliminar.UseVisualStyleBackColor = false;
+            this.Btn_Eliminar.Click += new System.EventHandler(this.Btn_Eliminar_Click);
+            // 
+            // Btn_salir
+            // 
+            this.Btn_salir.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(61)))), ((int)(((byte)(78)))), ((int)(((byte)(88)))));
+            this.Btn_salir.FlatAppearance.BorderColor = System.Drawing.SystemColors.ButtonShadow;
+            this.Btn_salir.Font = new System.Drawing.Font("Rockwell", 10F);
+            this.Btn_salir.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(201)))), ((int)(((byte)(214)))), ((int)(((byte)(221)))));
+            this.Btn_salir.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.Btn_salir.Location = new System.Drawing.Point(30, 381);
+            this.Btn_salir.Name = "Btn_salir";
+            this.Btn_salir.Size = new System.Drawing.Size(143, 54);
+            this.Btn_salir.TabIndex = 4;
+            this.Btn_salir.Text = "Salir";
+            this.Btn_salir.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.Btn_salir.UseVisualStyleBackColor = false;
+            this.Btn_salir.Click += new System.EventHandler(this.Btn_salir_Click);
+            // 
+            // Btn_nuevo
+            // 
+            this.Btn_nuevo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(61)))), ((int)(((byte)(78)))), ((int)(((byte)(88)))));
+            this.Btn_nuevo.FlatAppearance.BorderColor = System.Drawing.SystemColors.ButtonShadow;
+            this.Btn_nuevo.Font = new System.Drawing.Font("Rockwell", 10F);
+            this.Btn_nuevo.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(201)))), ((int)(((byte)(214)))), ((int)(((byte)(221)))));
+            this.Btn_nuevo.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.Btn_nuevo.Location = new System.Drawing.Point(30, 171);
+            this.Btn_nuevo.Name = "Btn_nuevo";
+            this.Btn_nuevo.Size = new System.Drawing.Size(143, 54);
+            this.Btn_nuevo.TabIndex = 1;
+            this.Btn_nuevo.Text = "Nuevo";
+            this.Btn_nuevo.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.Btn_nuevo.UseVisualStyleBackColor = false;
+            // 
+            // Btn_cancelar
+            // 
+            this.Btn_cancelar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(61)))), ((int)(((byte)(78)))), ((int)(((byte)(88)))));
+            this.Btn_cancelar.FlatAppearance.BorderColor = System.Drawing.SystemColors.ButtonShadow;
+            this.Btn_cancelar.Font = new System.Drawing.Font("Rockwell", 10F);
+            this.Btn_cancelar.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(201)))), ((int)(((byte)(214)))), ((int)(((byte)(221)))));
+            this.Btn_cancelar.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.Btn_cancelar.Location = new System.Drawing.Point(30, 311);
+            this.Btn_cancelar.Name = "Btn_cancelar";
+            this.Btn_cancelar.Size = new System.Drawing.Size(143, 54);
+            this.Btn_cancelar.TabIndex = 3;
+            this.Btn_cancelar.Text = "Cancelar";
+            this.Btn_cancelar.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.Btn_cancelar.UseVisualStyleBackColor = false;
+            this.Btn_cancelar.Click += new System.EventHandler(this.Btn_cancelar_Click);
+            // 
+            // Btn_modificar
+            // 
+            this.Btn_modificar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(61)))), ((int)(((byte)(78)))), ((int)(((byte)(88)))));
+            this.Btn_modificar.FlatAppearance.BorderColor = System.Drawing.SystemColors.ButtonShadow;
+            this.Btn_modificar.Font = new System.Drawing.Font("Rockwell", 10F);
+            this.Btn_modificar.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(201)))), ((int)(((byte)(214)))), ((int)(((byte)(221)))));
+            this.Btn_modificar.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.Btn_modificar.Location = new System.Drawing.Point(30, 26);
+            this.Btn_modificar.Name = "Btn_modificar";
+            this.Btn_modificar.Size = new System.Drawing.Size(143, 54);
+            this.Btn_modificar.TabIndex = 2;
+            this.Btn_modificar.Text = "Modificar";
+            this.Btn_modificar.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.Btn_modificar.UseVisualStyleBackColor = false;
+            this.Btn_modificar.Click += new System.EventHandler(this.Btn_modificar_Click);
+            // 
+            // Btn_guardar
+            // 
+            this.Btn_guardar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(61)))), ((int)(((byte)(78)))), ((int)(((byte)(88)))));
+            this.Btn_guardar.FlatAppearance.BorderColor = System.Drawing.SystemColors.ButtonShadow;
+            this.Btn_guardar.Font = new System.Drawing.Font("Rockwell", 10F);
+            this.Btn_guardar.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(201)))), ((int)(((byte)(214)))), ((int)(((byte)(221)))));
+            this.Btn_guardar.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.Btn_guardar.Location = new System.Drawing.Point(30, 97);
+            this.Btn_guardar.Name = "Btn_guardar";
+            this.Btn_guardar.Size = new System.Drawing.Size(143, 54);
+            this.Btn_guardar.TabIndex = 0;
+            this.Btn_guardar.Text = "Guardar";
+            this.Btn_guardar.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.Btn_guardar.UseVisualStyleBackColor = false;
+            this.Btn_guardar.Click += new System.EventHandler(this.Btn_guardar_Click);
+            // 
+            // Gpb_datosperfil
+            // 
+            this.Gpb_datosperfil.Controls.Add(this.Gbp_estado);
+            this.Gpb_datosperfil.Controls.Add(this.Txt_puesto);
+            this.Gpb_datosperfil.Controls.Add(this.Lbl_puesto);
+            this.Gpb_datosperfil.Controls.Add(this.Txt_idperfil);
+            this.Gpb_datosperfil.Controls.Add(this.Lbl_idpuesto);
+            this.Gpb_datosperfil.Font = new System.Drawing.Font("Rockwell", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Gpb_datosperfil.Location = new System.Drawing.Point(12, 137);
+            this.Gpb_datosperfil.Name = "Gpb_datosperfil";
+            this.Gpb_datosperfil.Size = new System.Drawing.Size(733, 488);
+            this.Gpb_datosperfil.TabIndex = 102;
+            this.Gpb_datosperfil.TabStop = false;
+            this.Gpb_datosperfil.Text = "Datos";
+            // 
+            // Gbp_estado
+            // 
+            this.Gbp_estado.Controls.Add(this.Rdb_inhabilitado);
+            this.Gbp_estado.Controls.Add(this.Rdb_Habilitado);
+            this.Gbp_estado.Location = new System.Drawing.Point(32, 176);
+            this.Gbp_estado.Name = "Gbp_estado";
+            this.Gbp_estado.Size = new System.Drawing.Size(595, 120);
+            this.Gbp_estado.TabIndex = 6;
+            this.Gbp_estado.TabStop = false;
+            this.Gbp_estado.Text = "Estado";
+            // 
+            // Rdb_inhabilitado
+            // 
+            this.Rdb_inhabilitado.AutoSize = true;
+            this.Rdb_inhabilitado.Location = new System.Drawing.Point(363, 54);
+            this.Rdb_inhabilitado.Name = "Rdb_inhabilitado";
+            this.Rdb_inhabilitado.Size = new System.Drawing.Size(123, 24);
+            this.Rdb_inhabilitado.TabIndex = 2;
+            this.Rdb_inhabilitado.TabStop = true;
+            this.Rdb_inhabilitado.Text = "Inhabilitado";
+            this.Rdb_inhabilitado.UseVisualStyleBackColor = true;
+            // 
+            // Rdb_Habilitado
+            // 
+            this.Rdb_Habilitado.AutoSize = true;
+            this.Rdb_Habilitado.Location = new System.Drawing.Point(115, 54);
+            this.Rdb_Habilitado.Name = "Rdb_Habilitado";
+            this.Rdb_Habilitado.Size = new System.Drawing.Size(110, 24);
+            this.Rdb_Habilitado.TabIndex = 1;
+            this.Rdb_Habilitado.TabStop = true;
+            this.Rdb_Habilitado.Text = "Habilitado";
+            this.Rdb_Habilitado.UseVisualStyleBackColor = true;
+            // 
+            // Txt_puesto
+            // 
+            this.Txt_puesto.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(236)))), ((int)(((byte)(238)))));
+            this.Txt_puesto.Location = new System.Drawing.Point(157, 95);
+            this.Txt_puesto.Name = "Txt_puesto";
+            this.Txt_puesto.Size = new System.Drawing.Size(525, 27);
+            this.Txt_puesto.TabIndex = 3;
+            // 
+            // Lbl_puesto
+            // 
+            this.Lbl_puesto.AutoSize = true;
+            this.Lbl_puesto.Location = new System.Drawing.Point(15, 98);
+            this.Lbl_puesto.Name = "Lbl_puesto";
+            this.Lbl_puesto.Size = new System.Drawing.Size(136, 20);
+            this.Lbl_puesto.TabIndex = 2;
+            this.Lbl_puesto.Text = "Nombre Bodega";
+            // 
+            // Txt_idperfil
+            // 
+            this.Txt_idperfil.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(236)))), ((int)(((byte)(238)))));
+            this.Txt_idperfil.Location = new System.Drawing.Point(142, 49);
+            this.Txt_idperfil.Name = "Txt_idperfil";
+            this.Txt_idperfil.Size = new System.Drawing.Size(525, 27);
+            this.Txt_idperfil.TabIndex = 1;
+            // 
+            // Lbl_idpuesto
+            // 
+            this.Lbl_idpuesto.AutoSize = true;
+            this.Lbl_idpuesto.Location = new System.Drawing.Point(6, 52);
+            this.Lbl_idpuesto.Name = "Lbl_idpuesto";
+            this.Lbl_idpuesto.Size = new System.Drawing.Size(130, 20);
+            this.Lbl_idpuesto.TabIndex = 0;
+            this.Lbl_idpuesto.Text = "Codigo Bodega";
+            // 
+            // Gpb_buscarperfiles
+            // 
+            this.Gpb_buscarperfiles.Controls.Add(this.Btn_buscar);
+            this.Gpb_buscarperfiles.Controls.Add(this.Cbo_perfiles);
+            this.Gpb_buscarperfiles.Font = new System.Drawing.Font("Rockwell", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Gpb_buscarperfiles.Location = new System.Drawing.Point(44, 6);
+            this.Gpb_buscarperfiles.Name = "Gpb_buscarperfiles";
+            this.Gpb_buscarperfiles.Size = new System.Drawing.Size(919, 125);
+            this.Gpb_buscarperfiles.TabIndex = 103;
+            this.Gpb_buscarperfiles.TabStop = false;
+            this.Gpb_buscarperfiles.Text = "Buscar Bodega";
+            // 
+            // Btn_buscar
+            // 
+            this.Btn_buscar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(61)))), ((int)(((byte)(78)))), ((int)(((byte)(88)))));
+            this.Btn_buscar.FlatAppearance.BorderColor = System.Drawing.SystemColors.ButtonShadow;
+            this.Btn_buscar.Font = new System.Drawing.Font("Rockwell", 10F);
+            this.Btn_buscar.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(201)))), ((int)(((byte)(214)))), ((int)(((byte)(221)))));
+            this.Btn_buscar.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.Btn_buscar.Location = new System.Drawing.Point(561, 41);
+            this.Btn_buscar.Name = "Btn_buscar";
+            this.Btn_buscar.Size = new System.Drawing.Size(143, 54);
+            this.Btn_buscar.TabIndex = 1;
+            this.Btn_buscar.Text = "Buscar";
+            this.Btn_buscar.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.Btn_buscar.UseVisualStyleBackColor = false;
+            this.Btn_buscar.Click += new System.EventHandler(this.Btn_buscar_Click);
+            // 
+            // Cbo_perfiles
+            // 
+            this.Cbo_perfiles.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(235)))), ((int)(((byte)(236)))), ((int)(((byte)(238)))));
+            this.Cbo_perfiles.FormattingEnabled = true;
+            this.Cbo_perfiles.Location = new System.Drawing.Point(32, 55);
+            this.Cbo_perfiles.Name = "Cbo_perfiles";
+            this.Cbo_perfiles.Size = new System.Drawing.Size(474, 28);
+            this.Cbo_perfiles.TabIndex = 0;
+            // 
+            // FrmBodegascs
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(966, 578);
+            this.Controls.Add(this.Gpb_buscarperfiles);
+            this.Controls.Add(this.Gpb_datosperfil);
+            this.Controls.Add(this.Btn_Ayuda);
+            this.Controls.Add(this.Btn_reporte);
+            this.Controls.Add(this.Gbp_opc);
+            this.Name = "FrmBodegascs";
+            this.Text = "FrmBodegascs";
+            this.Gbp_opc.ResumeLayout(false);
+            this.Gpb_datosperfil.ResumeLayout(false);
+            this.Gpb_datosperfil.PerformLayout();
+            this.Gbp_estado.ResumeLayout(false);
+            this.Gbp_estado.PerformLayout();
+            this.Gpb_buscarperfiles.ResumeLayout(false);
+            this.ResumeLayout(false);
+
+        }
+
+        #endregion
+
+        private System.Windows.Forms.Button Btn_Ayuda;
+        private System.Windows.Forms.Button Btn_reporte;
+        private System.Windows.Forms.GroupBox Gbp_opc;
+        private System.Windows.Forms.Button Btn_Eliminar;
+        private System.Windows.Forms.Button Btn_salir;
+        private System.Windows.Forms.Button Btn_nuevo;
+        private System.Windows.Forms.Button Btn_cancelar;
+        private System.Windows.Forms.Button Btn_modificar;
+        private System.Windows.Forms.Button Btn_guardar;
+        private System.Windows.Forms.GroupBox Gpb_datosperfil;
+        private System.Windows.Forms.GroupBox Gbp_estado;
+        private System.Windows.Forms.RadioButton Rdb_inhabilitado;
+        private System.Windows.Forms.RadioButton Rdb_Habilitado;
+        private System.Windows.Forms.TextBox Txt_puesto;
+        private System.Windows.Forms.Label Lbl_puesto;
+        private System.Windows.Forms.TextBox Txt_idperfil;
+        private System.Windows.Forms.Label Lbl_idpuesto;
+        private System.Windows.Forms.GroupBox Gpb_buscarperfiles;
+        private System.Windows.Forms.Button Btn_buscar;
+        private System.Windows.Forms.ComboBox Cbo_perfiles;
+    }
+}

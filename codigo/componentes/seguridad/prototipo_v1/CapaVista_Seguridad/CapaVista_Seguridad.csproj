@@ -52,11 +52,29 @@
     <Compile Include="frmBitacora.Designer.cs">
       <DependentUpon>frmBitacora.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmBodegascs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmBodegascs.Designer.cs">
+      <DependentUpon>FrmBodegascs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_Pefiles.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_Pefiles.designer.cs">
+      <DependentUpon>Frm_Pefiles.cs</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="frmBitacora.resx">
       <DependentUpon>frmBitacora.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmBodegascs.resx">
+      <DependentUpon>FrmBodegascs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_Pefiles.resx">
+      <DependentUpon>Frm_Pefiles.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
