@@ -31,5 +31,12 @@ namespace CapaVista_Menu
             CapaVista_Seguridad.frmBitacora bitacora = new CapaVista_Seguridad.frmBitacora();
             bitacora.ShowDialog();
         }
+
+        private void bodegasToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            CapaVista_Seguridad.FrmBodegascs bodegas = new CapaVista_Seguridad.FrmBodegascs();
+            bodegas.ShowDialog();
+        }
     }
-}
+    }
+
